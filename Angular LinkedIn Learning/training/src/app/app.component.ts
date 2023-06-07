@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'training';
+  tasks = {
+    id: 1,
+    name: 'LOGBOEK',
+    category: 'Sport',
+    priority: 5,
+    made: '07-06-2023',
+  };
 }

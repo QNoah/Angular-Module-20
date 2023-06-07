@@ -1,8 +1,8 @@
-<h2>Titel {{10 + 5}}</h2>
-<div>Gemaakt op: 01-08-2023</div>
-<div>School</div>
+<h2>{{taskItem.name}}</h2>
+<div>Gemaakt op: {{taskItem.made}}</div>
+<div>{{taskItem.category}}</div>
 <div class="tools">
-    <a class="delete">
+    <a (click)="onDelete()" class="delete">
         Gedaan
     </a>
     <a class="Details">
